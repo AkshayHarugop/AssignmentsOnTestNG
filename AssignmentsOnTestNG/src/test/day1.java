@@ -57,13 +57,13 @@ public class day1 {
 		System.out.println("I will execute before every test method");
 	}
 
-	@Test(groups= {"Smoke"})
+	@Test(dependsOnMethods= {"SecondTest"})
 	public void Demo() {
 		System.out.println("hello");// automation
 		Assert.assertTrue(true);
 	}
 
-	@Test
+	@Test(groups= {"Smoke"})
 	public void SecondTest() {
 		System.out.println("bye");
 	}

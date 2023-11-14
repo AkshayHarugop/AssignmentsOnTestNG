@@ -4,11 +4,15 @@
 	<test thread-count="5" name="Test">
 		<groups>
 			<run>
-				<exclude name="Smoke"></exclude>
+				<include name="Smoke"></include>
 			</run>
 		</groups>
 		<classes>
-			<class name="test.day5"></class>
+			<class name="test.day1"/>
+			<class name="test.day2"/>
+			<class name="test.day3"/>
+	        <class name="test.day4"/>
+      		<class name="test.day5"/>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

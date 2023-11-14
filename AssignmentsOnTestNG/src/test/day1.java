@@ -57,7 +57,7 @@ public class day1 {
 		System.out.println("I will execute before every test method");
 	}
 
-	@Test
+	@Test(groups= {"Smoke"})
 	public void Demo() {
 		System.out.println("hello");// automation
 		Assert.assertTrue(true);

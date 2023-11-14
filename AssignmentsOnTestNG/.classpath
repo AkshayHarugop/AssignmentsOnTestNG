@@ -17,5 +17,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/aha5/.p2/pool/plugins/org.testng_7.8.0.r202306071539.jar" sourcepath="C:/Users/aha5/.p2/pool/plugins/org.testng.source_7.8.0.r202306071539.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -15,6 +15,7 @@ public class day7 {
 
 	@DataProvider
 	public Object[][] getData() {
+//		Multi dimensional object is very import to make it work
 		// 1st combination - username and password -good credit history
 		// 2nd combination - username and password -no crdit history
 		// 3rd combination - username and password -fraudent credit history

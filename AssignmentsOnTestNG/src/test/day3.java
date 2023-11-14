@@ -9,7 +9,7 @@ public class day3 {
 		System.out.println("weblogincar");
 	}
 
-	@Test
+	@Test(enabled=false)
 	public void MobileloginCarLoan() {
 		System.out.println("mobilelogincar");
 	}

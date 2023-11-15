@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-15T11:51:09 IST" name="Suite" finished-at="2023-11-15T11:51:09 IST" duration-ms="127">
+    <groups>
+      <group name="Smoke">
+        <method signature="day5.WebloginCarLoan()[pri:0, instance:test.day5@193f604a]" name="WebloginCarLoan" class="test.day5"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-11-15T11:51:09 IST" name="Test2" finished-at="2023-11-15T11:51:09 IST" duration-ms="127">
+      <class name="test.day6">
+        <test-method signature="parameterization(java.lang.String,java.lang.String)[pri:0, instance:test.day6@6d3a388c]" started-at="2023-11-15T11:51:09 IST" name="parameterization" finished-at="2023-11-15T11:51:09 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'UserName' is required by @Test on method parameterization but has not been marked @Optional or defined
+in C:\Users\aha5\git\AssignmentsOnTestNG\AssignmentsOnTestNG\TestNGXMLExecutionFiles\13ParallelExecution.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'UserName' is required by @Test on method parameterization but has not been marked @Optional or defined
+in C:\Users\aha5\git\AssignmentsOnTestNG\AssignmentsOnTestNG\TestNGXMLExecutionFiles\13ParallelExecution.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameterization -->
+      </class> <!-- test.day6 -->
+      <class name="test.day5">
+        <test-method signature="APIloginCarLoan()[pri:0, instance:test.day5@193f604a]" started-at="2023-11-15T11:51:09 IST" name="APIloginCarLoan" finished-at="2023-11-15T11:51:09 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIloginCarLoan -->
+        <test-method signature="MobileSigninCarLoan()[pri:0, instance:test.day5@193f604a]" started-at="2023-11-15T11:51:09 IST" name="MobileSigninCarLoan" finished-at="2023-11-15T11:51:09 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSigninCarLoan -->
+        <test-method signature="MobileSignoutCarLoan()[pri:0, instance:test.day5@193f604a]" started-at="2023-11-15T11:51:09 IST" name="MobileSignoutCarLoan" finished-at="2023-11-15T11:51:09 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignoutCarLoan -->
+        <test-method signature="MobileloginCarLoan()[pri:0, instance:test.day5@193f604a]" started-at="2023-11-15T11:51:09 IST" name="MobileloginCarLoan" finished-at="2023-11-15T11:51:09 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileloginCarLoan -->
+        <test-method signature="WebloginCarLoan()[pri:0, instance:test.day5@193f604a]" started-at="2023-11-15T11:51:09 IST" name="WebloginCarLoan" finished-at="2023-11-15T11:51:09 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginCarLoan -->
+      </class> <!-- test.day5 -->
+    </test> <!-- Test2 -->
+    <test started-at="2023-11-15T11:51:09 IST" name="Test1" finished-at="2023-11-15T11:51:09 IST" duration-ms="85">
+      <class name="test.day7">
+        <test-method signature="MobileSignoutCarLoan(java.lang.String,java.lang.String)[pri:0, instance:test.day7@3541cb24]" started-at="2023-11-15T11:51:09 IST" name="MobileSignoutCarLoan" data-provider="getData" finished-at="2023-11-15T11:51:09 IST" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstSeleniumusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignoutCarLoan -->
+        <test-method signature="MobileSignoutCarLoan(java.lang.String,java.lang.String)[pri:0, instance:test.day7@3541cb24]" started-at="2023-11-15T11:51:09 IST" name="MobileSignoutCarLoan" data-provider="getData" finished-at="2023-11-15T11:51:09 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SecondSeleniumusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SecondPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignoutCarLoan -->
+        <test-method signature="MobileSignoutCarLoan(java.lang.String,java.lang.String)[pri:0, instance:test.day7@3541cb24]" started-at="2023-11-15T11:51:09 IST" name="MobileSignoutCarLoan" data-provider="getData" finished-at="2023-11-15T11:51:09 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ThirdSeleniumusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThirdPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignoutCarLoan -->
+      </class> <!-- test.day7 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
